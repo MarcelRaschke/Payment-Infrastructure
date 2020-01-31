@@ -1,0 +1,11 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "backend/application-servers/payment-backend-java/package.json",
+        "frontend/Angular/package.json",
+        "frontend/Vue/package.json"
+      ]
+    }
+  }
+}
