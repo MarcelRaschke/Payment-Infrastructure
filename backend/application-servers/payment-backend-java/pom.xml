@@ -31,9 +31,9 @@
         <m2e.apt.activation>jdt_apt</m2e.apt.activation>
         <run.addResources>false</run.addResources>
         <!-- These remain empty unless the corresponding profile is active -->
-        <profile.no-liquibase />
-        <profile.swagger />
-        <profile.tls />
+        <profile.no-liquibase/>
+        <profile.swagger/>
+        <profile.tls/>
 
         <!-- Dependency versions -->
         <jhipster-dependencies.version>2.0.22</jhipster-dependencies.version>
@@ -312,7 +312,7 @@
 		<dependency>
 		  <groupId>org.web3j</groupId>
 		  <artifactId>core</artifactId>
-		  <version>3.5.0</version>
+		  <version>4.0.0</version>
 		</dependency>
 		
     </dependencies>
@@ -486,7 +486,7 @@
                     <url>jdbc:mysql://localhost:3306/payback</url>
                     <defaultSchemaName>payback</defaultSchemaName>
                     <username>root</username>
-                    <password></password>
+                    <password/>
                     <referenceUrl>hibernate:spring:com.zurichdev.payback.domain?dialect=org.hibernate.dialect.MySQL5InnoDBDialect&amp;hibernate.physical_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy&amp;hibernate.implicit_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy</referenceUrl>
                     <verbose>true</verbose>
                     <logging>debug</logging>
